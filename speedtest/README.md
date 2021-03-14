@@ -9,5 +9,5 @@ Runs a speedtest and logs the results into a .log and into a .json file for furt
 ## Preinstalled used libarys
 
 - datetime.datetime
-- time.sleep
+- time.sleep, time.time
 - json
