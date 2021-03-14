@@ -1,3 +1,5 @@
 /.vscode
 *.log
+download.json
+upload.json
 /__pycache__
