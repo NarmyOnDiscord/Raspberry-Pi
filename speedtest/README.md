@@ -1,6 +1,6 @@
-# Running a Speedtest with python
+# Running a speedtest with python
 
-Runs a speedtest and logs the results into a .log file. 
+Runs a speedtest and logs the results into a .log and into a .json file for further using in graphs. 
 
 ## Install the following libarys
 
