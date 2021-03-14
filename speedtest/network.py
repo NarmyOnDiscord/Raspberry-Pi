@@ -2,7 +2,6 @@ import speedtest as st
 from datetime import datetime as dt
 from time import sleep as wait
 
-
 while True:
     try:
         s = st.Speedtest()
@@ -15,7 +14,7 @@ while True:
         print(f"{time} - Download: {down} - Upload: {up}\n")
 
         with open("network.log", "a+") as log:
-            log.write(f"{time} - Download: {down} - Upload: {up}\n")
+            log.write(f"{time} - Download: {down:.2f} - Upload: {up:.2f}\n")
 
     except:
         time = dt.utcnow()
